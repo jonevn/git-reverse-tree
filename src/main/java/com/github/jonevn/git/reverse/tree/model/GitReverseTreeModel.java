@@ -1,8 +1,9 @@
-package se.evelonn.git.reverse.tree.model;
+package com.github.jonevn.git.reverse.tree.model;
+
+import com.github.jonevn.git.reverse.tree.logic.domain.GitReverseTree;
 
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.value.ObservableObjectValue;
-import se.evelonn.git.reverse.tree.logic.domain.GitReverseTree;
 
 public class GitReverseTreeModel {
 

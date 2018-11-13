@@ -1,4 +1,4 @@
-package se.evelonn.git.reverse.tree.logic.domain;
+package com.github.jonevn.git.reverse.tree.logic.domain;
 
 import java.util.List;
 import java.util.Optional;
@@ -21,6 +21,10 @@ public class GitReverseTree {
 	}
 
 	public void restructure() {
+		Branch startBranch = getMasterBranch().orElseGet(() -> getBranchWithEarliestCommit().orElse(null));
+		if (startBranch == null) {
+			return;
+		}
 
 	}
 }

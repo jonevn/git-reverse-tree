@@ -1,6 +1,8 @@
-package se.evelonn.git.reverse.tree.view;
+package com.github.jonevn.git.reverse.tree.view;
 
 import java.io.File;
+
+import com.github.jonevn.git.reverse.tree.controller.GitReverseTreeController;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -10,7 +12,6 @@ import javafx.scene.control.MenuItem;
 import javafx.scene.control.SeparatorMenuItem;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.Stage;
-import se.evelonn.git.reverse.tree.controller.GitReverseTreeController;
 
 public class MainMenuBar extends MenuBar {
 

@@ -1,14 +1,15 @@
-package se.evelonn.git.reverse.tree.controller;
+package com.github.jonevn.git.reverse.tree.controller;
 
 import java.io.File;
 import java.nio.file.Path;
 
+import com.github.jonevn.git.reverse.tree.logic.GitParser;
+import com.github.jonevn.git.reverse.tree.logic.domain.GitReverseTree;
+import com.github.jonevn.git.reverse.tree.model.GitReverseTreeModel;
+
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.ButtonType;
-import se.evelonn.git.reverse.tree.logic.GitParser;
-import se.evelonn.git.reverse.tree.logic.domain.GitReverseTree;
-import se.evelonn.git.reverse.tree.model.GitReverseTreeModel;
 
 public class GitReverseTreeController {
 

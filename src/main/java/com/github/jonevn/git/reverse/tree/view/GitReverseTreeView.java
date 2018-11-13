@@ -1,9 +1,15 @@
-package se.evelonn.git.reverse.tree.view;
+package com.github.jonevn.git.reverse.tree.view;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collector;
+
+import com.github.jonevn.git.reverse.tree.controller.GitReverseTreeController;
+import com.github.jonevn.git.reverse.tree.logic.domain.Branch;
+import com.github.jonevn.git.reverse.tree.logic.domain.Commit;
+import com.github.jonevn.git.reverse.tree.logic.domain.GitReverseTree;
+import com.github.jonevn.git.reverse.tree.model.GitReverseTreeModel;
 
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
@@ -28,11 +34,6 @@ import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextBoundsType;
 import javafx.stage.Stage;
-import se.evelonn.git.reverse.tree.controller.GitReverseTreeController;
-import se.evelonn.git.reverse.tree.logic.domain.Branch;
-import se.evelonn.git.reverse.tree.logic.domain.Commit;
-import se.evelonn.git.reverse.tree.logic.domain.GitReverseTree;
-import se.evelonn.git.reverse.tree.model.GitReverseTreeModel;
 
 public class GitReverseTreeView {
 

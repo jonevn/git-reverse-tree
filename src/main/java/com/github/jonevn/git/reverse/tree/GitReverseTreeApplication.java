@@ -1,11 +1,12 @@
-package se.evelonn.git.reverse.tree;
+package com.github.jonevn.git.reverse.tree;
+
+import com.github.jonevn.git.reverse.tree.controller.GitReverseTreeController;
+import com.github.jonevn.git.reverse.tree.model.GitReverseTreeModel;
+import com.github.jonevn.git.reverse.tree.view.GitReverseTreeView;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import se.evelonn.git.reverse.tree.controller.GitReverseTreeController;
-import se.evelonn.git.reverse.tree.model.GitReverseTreeModel;
-import se.evelonn.git.reverse.tree.view.GitReverseTreeView;
 
 public class GitReverseTreeApplication extends Application {
 

@@ -1,4 +1,4 @@
-package se.evelonn.git.reverse.tree.logic;
+package com.github.jonevn.git.reverse.tree.logic;
 
 import java.io.IOException;
 import java.nio.file.Path;
@@ -12,9 +12,9 @@ import org.eclipse.jgit.lib.PersonIdent;
 import org.eclipse.jgit.lib.Ref;
 import org.eclipse.jgit.revwalk.RevCommit;
 
-import se.evelonn.git.reverse.tree.logic.domain.Branch;
-import se.evelonn.git.reverse.tree.logic.domain.Commit;
-import se.evelonn.git.reverse.tree.logic.domain.GitReverseTree;
+import com.github.jonevn.git.reverse.tree.logic.domain.Branch;
+import com.github.jonevn.git.reverse.tree.logic.domain.Commit;
+import com.github.jonevn.git.reverse.tree.logic.domain.GitReverseTree;
 
 public class GitParser {
 

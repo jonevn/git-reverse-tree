@@ -1,4 +1,4 @@
-package se.evelonn.git.reverse.tree.logic.domain;
+package com.github.jonevn.git.reverse.tree.logic.domain;
 
 import java.util.Date;
 import java.util.List;
